@@ -36,12 +36,12 @@ for repo in "${repos[@]}"; do
     git push "$repo" "$branch"
 
     if [ $? -ne 0 ]; then
-        echo "推送失败，请检查错误！"
+        echo "向远程仓库 $repo 推送失败，请检查错误！"
         read -p "按任意键继续..." -n 1 -s
         echo
         exit 1
     else
-        echo "推送成功！"
+        echo "向远程仓库 $repo 推送成功！"
     fi
 done
 
