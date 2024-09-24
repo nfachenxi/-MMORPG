@@ -39,6 +39,9 @@ pull_changes() {
 
 # 主菜单
 while true; do
+    # 清空屏幕
+    clear
+    
     echo "请选择一个选项:"
     echo "1) 一键推送"
     echo "2) 一键拉取"
@@ -60,4 +63,8 @@ while true; do
             echo "无效选项。请重试。"
             ;;
     esac
+    
+    # 等待用户按任意键继续
+    echo "按任意键继续..."
+    read -n 1 -s
 done
