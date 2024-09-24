@@ -7,7 +7,9 @@ export LANG=en_US.UTF-8
 
 # 获取所有远程仓库的列表
 repos=$(git remote)
-IFS=' ' read -ra repos <<< "$repos"
+
+# 输出所有远程仓库，便于调试
+echo "检测到的远程仓库：$repos"
 
 # 设置提交信息
 read -p "请输入提交信息：" commit_message
@@ -29,6 +31,7 @@ else
 fi
 
 # 遍历所有远程仓库并推送
+IFS=' ' read -ra repos <<< "$repos"
 for repo in "${repos[@]}"; do
     echo "正在向远程仓库 $repo 推送分支 $branch..."
 
