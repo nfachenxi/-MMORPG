@@ -259,6 +259,12 @@ namespace SkillBridge.Message
         [global::System.ComponentModel.DefaultValue("")]
         public string Passward { get; set; } = "";
 
+        [global::ProtoBuf.ProtoMember(3, Name = @"age")]
+        public int Age { get; set; }
+
+        [global::ProtoBuf.ProtoMember(4, Name = @"isman")]
+        public bool Isman { get; set; }
+
     }
 
     [global::ProtoBuf.ProtoContract()]

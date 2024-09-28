@@ -153,6 +153,8 @@ message UserRegisterRequest
 {
 	string user = 1;
 	string passward = 2;
+	int32 age = 3;
+	bool isman = 4;
 }
 
 message UserRegisterResponse {
