@@ -119,6 +119,8 @@ message NetMessageRequest{
 
 	MapEntitySyncRequest mapEntitySync = 8;
 	MapTeleportRequest mapTeleport = 9;
+
+	NFALoginRequest nfaRequset = 10;
 }
 
 message NetMessageResponse{
@@ -137,6 +139,12 @@ message NetMessageResponse{
 
 
 // User Protocol
+
+message NFALoginRequest {
+	string welcome = 1;
+}
+
+
 message UserLoginRequest {
 	string user = 1;
 	string passward = 2;

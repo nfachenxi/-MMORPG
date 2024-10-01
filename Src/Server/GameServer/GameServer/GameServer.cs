@@ -18,11 +18,17 @@ namespace GameServer
     {
         Thread thread;
         bool running = false;
+        NetService network;
         public bool Init()
         {
+
+            network = new NetService();
+            network.Init(8000);
+
             DBService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
+            NFAWelcomeService.Instance.Init();
             
 
             return true;
@@ -31,13 +37,18 @@ namespace GameServer
 
         public void Start()
         {
+            network.Start();
             running = true;
             thread.Start();
+
+            NFAWelcomeService.Instance.Start();
+
         }
 
 
         public void Stop()
         {
+            network.Stop();
             running = false;
             thread.Join();
         }
