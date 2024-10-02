@@ -17,3 +17,9 @@
 出现原因：破解失效
 
 解决方法：删除C:\Users\用户名\AppData\Roaming\Scooter Software\Beyond Compare 4，删除之后重新输入破解凭证即可
+
+### 作业记录：
+
+C6作业：
+
+​	完成加载界面、登录界面、注册界面UI的设计制作

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fa98f0e6536a19b449059e1fbccad2a8
+guid: c9d8afea1d6f5614485dd29f43645b28
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -168,12 +168,7 @@ ModelImporter:
     13700000: treasure_huntergirl
     13700002: "\u5BF9\u8C61001"
     2186277476908879412: ImportLogs
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #25'
-    second: {fileID: 2100000, guid: 0862612abb2387b46a99b82acb1ab585, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
