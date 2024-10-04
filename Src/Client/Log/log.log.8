@@ -1,1 +1,21 @@
-2024-10-03 20:43:21,428 [ 1] INFO  Unity: LoadingManager start
+2024-10-04 14:21:31,904 [ 1] INFO  Unity: LoadingManager start
+2024-10-04 14:21:42,241 [ 1] ERROR Unity: NetClient.Instance is null
+UnityEngine.Debug:LogError(Object)
+Services.UserService:.ctor() (at Assets/Scripts/Services/UserService.cs:23)
+System.Activator:CreateInstance()
+Singleton`1:get_Instance() (at Assets/Scripts/Utilities/Singleton.cs:17)
+UIRegister:Start() (at Assets/Scripts/UI/UIRegister.cs:16)
+
+2024-10-04 14:21:42,245 [ 1] FATAL Unity: <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>{0
+{1}</format><args>{NullReferenceException: Object reference not set to an instance of an object, Services.UserService..ctor () (at Assets/Scripts/Services/UserService.cs:29)
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:513)
+Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
+System.Reflection.MonoCMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:519)
+System.Reflection.MonoCMethod.Invoke (BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/MonoMethod.cs:528)
+System.Reflection.ConstructorInfo.Invoke (System.Object[] parameters) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Reflection/ConstructorInfo.cs:77)
+System.Activator.CreateInstance (System.Type type, Boolean nonPublic) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:372)
+System.Activator.CreateInstance (System.Type type) (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:254)
+System.Activator.CreateInstance[UserService] () (at /Users/builduser/buildslave/mono/build/mcs/class/corlib/System/Activator.cs:248)
+Singleton`1[Services.UserService].get_Instance () (at Assets/Scripts/Utilities/Singleton.cs:17)
+UIRegister.Start () (at Assets/Scripts/UI/UIRegister.cs:16)
+}</args></log4net.Error>

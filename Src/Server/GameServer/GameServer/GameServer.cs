@@ -26,9 +26,9 @@ namespace GameServer
             network.Init(8000);
 
             DBService.Instance.Init();
+            UserService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
-            NFAWelcomeService.Instance.Init();
             
 
             return true;
@@ -41,7 +41,7 @@ namespace GameServer
             running = true;
             thread.Start();
 
-            NFAWelcomeService.Instance.Start();
+
 
         }
 
