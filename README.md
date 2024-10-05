@@ -18,6 +18,18 @@
 
 解决方法：删除C:\Users\用户名\AppData\Roaming\Scooter Software\Beyond Compare 4，删除之后重新输入破解凭证即可
 
+3.客户端报错定位到 NetClient.Instance.OnConnect -= OnGameServerConnect;语句
+
+出现原因：NetClient未初始化
+
+解决方法：在场景中某一物体上挂载NetClient脚本即可
+
+4.服务端无法连接到数据库、
+
+出现原因1：app.config文件中并未设置远端服务器的登录密码
+
+解决方法1：在username语句后加上password语句，并填写密码
+
 ### 作业记录：
 
 C6作业：
@@ -25,3 +37,9 @@ C6作业：
 ​	完成加载界面、登录界面、注册界面UI的设计制作
 
 作业已完成——完成时间：2024/10/2   17：39
+
+C7作业：
+
+​	完成登录与注册脚本逻辑，实现与服务端的消息互通
+
+作业已完成——完成时间：2024/10/4    17：00
