@@ -6,6 +6,7 @@ using System.IO;
 using SkillBridge.Message;
 using ProtoBuf;
 using UnityEngine.Analytics;
+using Services;
 
 public class LoadingManager : MonoBehaviour {
 
@@ -37,11 +38,11 @@ public class LoadingManager : MonoBehaviour {
         UILoading.SetActive(true);
         yield return new WaitForSeconds(2f);
         UIStart.SetActive(false);
-        //yield return DataManager.Instance.LoadData();
+        yield return DataManager.Instance.LoadData();
 
         //Init basic services
         //MapService.Insrance.Init();
-        //UserService.Instance.Init();
+        UserService.Instance.Init();
 
 
         //Fake loading Simulate

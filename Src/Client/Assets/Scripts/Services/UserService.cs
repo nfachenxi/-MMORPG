@@ -154,6 +154,11 @@ namespace Services
         {
             Debug.LogFormat("OnUserLogin:{0} [{1}]", response.Result, response.Errormsg);
 
+            if(response.Result == Result.Success)
+            {
+                Models.User.Instance.SetupUserInfo(response.Userinfo);
+            }
+
             if (this.OnLogin != null)
             {
                 this.OnLogin(response.Result, response.Errormsg);

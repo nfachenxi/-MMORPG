@@ -77,6 +77,18 @@ namespace GameServer.Services
                 {
                     message.Response.userLogin.Result = Result.Success;
                     message.Response.userLogin.Errormsg = "登陆成功";
+                    message.Response.userLogin.Userinfo = new NUserInfo();
+                    message.Response.userLogin.Userinfo.Id = 1;
+                    message.Response.userLogin.Userinfo.Player = new NPlayerInfo();
+                    message.Response.userLogin.Userinfo.Player.Id = user.Player.ID;
+                    foreach(var c in user.Player.Characters)
+                    {
+                        NCharacterInfo info = new NCharacterInfo();
+                        info.Id = c.ID;
+                        info.Name = c.Name;
+                        info.Class = (CharacterClass)c.Class;
+                        message.Response.userLogin.Userinfo.Player.Characters.Add(info);
+                    }
                 }
             }
 

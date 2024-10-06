@@ -1,6 +1,9 @@
-﻿using Services;
+﻿using log4net.Appender;
+using Services;
+using SkillBridge.Message;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,10 +19,7 @@ public class UIlogin : MonoBehaviour {
 	void Start () {
         UserService.Instance.OnLogin = this.OnLogin;
     }
-    void OnLogin(SkillBridge.Message.Result result, string msg)
-    {
-        MessageBox.Show(string.Format("结果: {0} msg:{1}", result, msg));
-    }
+    
 
     void Update () {
 		
@@ -39,4 +39,15 @@ public class UIlogin : MonoBehaviour {
 		}
 		UserService.Instance.SendLogin(this.username.text, this.password.text);
 	}
+    void OnLogin(Result result, string message)
+    {
+		if (result == Result.Success)
+		{
+			//登录成功。进入角色选择界面
+			//MessageBox.Show("登录成功，准备角色选择" + message, "提示", MessageBoxType.Information);
+			SceneManager.Instance.LoadScene("CharSelect");
+		}
+		else
+			MessageBox.Show(message, "错误", MessageBoxType.Error);
+    }
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Map03.unity
     guid: 1a1da40d2dbb55347b80929645a59343
+  - enabled: 1
+    path: Assets/Levels/CharSelect.unity
+    guid: cb0bffb441efc444bbd41f029d2158e2
   m_configObjects: {}
