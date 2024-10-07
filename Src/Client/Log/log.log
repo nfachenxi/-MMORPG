@@ -1,17 +1,17 @@
-2024-10-06 22:50:34,164 [ 1] INFO  Unity: LoadingManager start
-2024-10-06 22:50:40,306 [ 1] INFO  Unity: DataManager > DataManager()
-2024-10-06 22:50:47,929 [ 1] INFO  Unity: UserLoginRequest::user :user123 psw:123456
-2024-10-06 22:50:47,931 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-10-06 22:50:47,935 [ 1] INFO  Unity: DoConnect
-2024-10-06 22:50:47,936 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-10-06 22:50:47,942 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-10-07 17:27:40,951 [ 1] INFO  Unity: LoadingManager start
+2024-10-07 17:27:47,130 [ 1] INFO  Unity: DataManager > DataManager()
+2024-10-07 17:27:59,311 [ 1] INFO  Unity: UserLoginRequest::user :user123 psw:123456
+2024-10-07 17:27:59,313 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-10-07 17:27:59,319 [ 1] INFO  Unity: DoConnect
+2024-10-07 17:27:59,322 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-10-07 17:27:59,326 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-10-06 22:50:47,948 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-10-06 22:50:49,018 [ 1] INFO  Unity: OnUserLogin:Success [登陆成功]
-2024-10-06 22:50:49,021 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-10-06 22:50:49,152 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-10-06 22:51:25,413 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-10-06 22:51:25,414 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-10-07 17:27:59,330 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-10-07 17:27:59,428 [ 1] INFO  Unity: OnUserLogin:Success [登陆成功]
+2024-10-07 17:27:59,429 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-10-07 17:27:59,572 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-10-07 17:28:39,839 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-10-07 17:28:39,840 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
