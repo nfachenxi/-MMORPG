@@ -1,23 +1,20 @@
-2024-10-07 15:00:48,322 [ 1] INFO  Unity: LoadingManager start
-2024-10-07 15:00:54,499 [ 1] INFO  Unity: DataManager > DataManager()
-2024-10-07 15:01:51,085 [ 1] INFO  Unity: UserLoginRequest::user :user123 psw:123456
-2024-10-07 15:01:51,086 [ 1] INFO  Unity: ConnectToServer() Start 
-2024-10-07 15:01:51,091 [ 1] INFO  Unity: DoConnect
-2024-10-07 15:01:51,093 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
-2024-10-07 15:01:51,097 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
+2024-10-07 16:05:15,137 [ 1] INFO  Unity: LoadingManager start
+2024-10-07 16:05:21,352 [ 1] INFO  Unity: DataManager > DataManager()
+2024-10-07 16:05:28,875 [ 1] INFO  Unity: UserLoginRequest::user :user123 psw:123456
+2024-10-07 16:05:28,878 [ 1] INFO  Unity: ConnectToServer() Start 
+2024-10-07 16:05:28,882 [ 1] INFO  Unity: DoConnect
+2024-10-07 16:05:28,883 [ 1] INFO  Unity: NetClient.DoConnect on 127.0.0.1:8000
+2024-10-07 16:05:28,887 [ 1] INFO  Unity: Connect[0] to server 127.0.0.1:8000
 
-2024-10-07 15:01:51,100 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
-2024-10-07 15:01:51,205 [ 1] INFO  Unity: OnUserLogin:Success [登陆成功]
-2024-10-07 15:01:51,207 [ 1] INFO  Unity: LoadLevel: CharSelect
-2024-10-07 15:01:51,334 [ 1] INFO  Unity: LevelLoadCompleted:1
-2024-10-07 15:02:00,148 [ 1] INFO  Unity: Select Char:[5]test5[Warrior]
-2024-10-07 15:02:00,550 [ 1] INFO  Unity: Select Char:[4]test4[Archer]
-2024-10-07 15:02:00,947 [ 1] INFO  Unity: Select Char:[3]test02[Archer]
-2024-10-07 15:02:01,402 [ 1] INFO  Unity: Select Char:[5]test5[Warrior]
-2024-10-07 15:02:01,699 [ 1] INFO  Unity: Select Char:[5]test5[Warrior]
-2024-10-07 15:02:02,452 [ 1] INFO  Unity: Select Char:[1]test01[Archer]
-2024-10-07 15:02:02,858 [ 1] INFO  Unity: Select Char:[3]test02[Archer]
-2024-10-07 15:02:03,359 [ 1] INFO  Unity: Select Char:[4]test4[Archer]
-2024-10-07 15:02:03,639 [ 1] INFO  Unity: Select Char:[5]test5[Warrior]
-2024-10-07 15:02:09,767 [ 1] INFO  Unity: SendCharacterCreate::charName :test6 class:Wizard
-2024-10-07 15:02:09,783 [ 1] INFO  Unity: OnCharacterCreate:Success [None]
+2024-10-07 16:05:28,891 [ 1] INFO  Unity: LoadingMesager::OnGameServerConnect :0 reason:Success
+2024-10-07 16:05:28,985 [ 1] INFO  Unity: OnUserLogin:Success [登陆成功]
+2024-10-07 16:05:28,987 [ 1] INFO  Unity: LoadLevel: CharSelect
+2024-10-07 16:05:29,169 [ 1] INFO  Unity: LevelLoadCompleted:1
+2024-10-07 16:06:06,376 [ 1] INFO  Unity: SendCharacterCreate::charName :test class:Archer
+2024-10-07 16:06:06,392 [ 1] INFO  Unity: OnCharacterCreate:Success [None]
+2024-10-07 16:06:11,369 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-10-07 16:06:11,371 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+UnityEngine.Debug:LogWarning(Object)
+Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
+Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
+
