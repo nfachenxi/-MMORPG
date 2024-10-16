@@ -29,7 +29,7 @@ namespace GameServer
             DBService.Instance.Init();
             UserService.Instance.Init();
             DataManager.Instance.Load();
-            MapManager.Instance.Init();
+            MapService.Instance.Init();
             thread = new Thread(new ThreadStart(this.Update));
 
             
