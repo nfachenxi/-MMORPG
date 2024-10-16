@@ -148,8 +148,7 @@ public class UICharacterSelect : MonoBehaviour {
 		var cha = User.Instance.Info.Player.Characters[idx];
 		Debug.LogFormat("Select Char:[{0}]{1}[{2}]", cha.Id, cha.Name, cha.Class);
 		User.Instance.CurrentCharacter = cha;
-		int test = (int)cha.Class - 1;
-		characterView.CurrentCharacter = test;
+		characterView.CurrentCharacter = (int)cha.Class - 1;
 
         for (int i = 0; i < User.Instance.Info.Player.Characters.Count; i++)
         {
@@ -164,7 +163,7 @@ public class UICharacterSelect : MonoBehaviour {
 	{
 		if(selectCharacteridx >= 0)
 		{
-			MessageBox.Show("进入游戏", "进入游戏", MessageBoxType.Confirm);
+			UserService.Instance.SendGameEnter(selectCharacteridx);
 		}
 	}
 

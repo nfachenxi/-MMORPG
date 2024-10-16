@@ -41,7 +41,7 @@ public class LoadingManager : MonoBehaviour {
         yield return DataManager.Instance.LoadData();
 
         //Init basic services
-        //MapService.Insrance.Init();
+        MapService.Instance.Init();
         UserService.Instance.Init();
 
 
