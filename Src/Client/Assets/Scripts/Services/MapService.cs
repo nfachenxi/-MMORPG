@@ -6,6 +6,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Managers;
 
 
 namespace Services
@@ -66,6 +67,7 @@ namespace Services
             if (DataManager.Instance.Maps.ContainsKey(mapId))
             {
                 MapDefine map = DataManager.Instance.Maps[mapId];
+                User.Instance.CurrentMapData = map;
                 SceneManager.Instance.LoadScene(map.Resource);
             }
             else

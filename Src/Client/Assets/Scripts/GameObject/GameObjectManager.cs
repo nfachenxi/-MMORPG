@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Entities;
-using Services;
+using Managers;
 using SkillBridge.Message;
+using Models;
 
 public class GameObjectManager : MonoBehaviour
 {
@@ -71,6 +72,7 @@ public class GameObjectManager : MonoBehaviour
             {
                 if (character.Info.Id == Models.User.Instance.CurrentCharacter.Id)
                 {
+                    User.Instance.CurrentCharacterObject = go;
                     MainPlayerCamera.Instance.player = go;
                     pc.enabled = true;
                     pc.character = character;

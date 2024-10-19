@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 
-namespace Services
+namespace Managers
 {
 	public class CharacterManager : Singleton<CharacterManager>, IDisposable
 	{

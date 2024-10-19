@@ -6,7 +6,7 @@ public class UIWorldElement : MonoBehaviour {
 
 	public Transform owner;
 
-	public float height = 2.5f;
+	public float height = 2.15f;
 
 	// Use this for initialization
 	void Start () {
