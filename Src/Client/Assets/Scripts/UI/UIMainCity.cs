@@ -1,6 +1,7 @@
 ﻿using Models;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,5 +27,11 @@ public class UIMainCity : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	public void BackToCharSelect()
+	{
+		SceneManager.Instance.LoadScene("CharSelect");
+		Services.UserService.Instance.SendGameLeave();
 	}
 }
