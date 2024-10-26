@@ -36,7 +36,7 @@ namespace Services
             MessageDistributer.Instance.Subscribe<UserCreateCharacterResponse>(this.OnUserCharacterCreate);
             MessageDistributer.Instance.Subscribe<UserGameEnterResponse>(this.OnGameEnter);
             MessageDistributer.Instance.Subscribe<UserGameLeaveResponse>(this.OnGameLeave);
-            MessageDistributer.Instance.Subscribe<MapCharacterEnterResponse>(this.OnCharacterEnter);
+            //MessageDistributer.Instance.Subscribe<MapCharacterEnterResponse>(this.OnCharacterEnter);
            
             
         }
@@ -253,10 +253,10 @@ namespace Services
 
         void OnCharacterEnter(object sender, MapCharacterEnterResponse message)
         {
-            Debug.LogFormat("OnCharacterEnter: {0} ", message.mapId);
-            NCharacterInfo info = message.Characters[0];
-            User.Instance.CurrentCharacter = info;
-            SceneManager.Instance.LoadScene(DataManager.Instance.Maps[message.mapId].Resource);  
+        //    Debug.LogFormat("OnCharacterEnter: {0} ", message.mapId);
+        //    NCharacterInfo info = message.Characters[0];
+        //    User.Instance.CurrentCharacter = info;
+        //    SceneManager.Instance.LoadScene(DataManager.Instance.Maps[message.mapId].Resource);  
         }
     }
 }

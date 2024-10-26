@@ -83,6 +83,7 @@ namespace GameServer.Models
             {
                 this.SendCharacterLeaveMap(kv.Value.connection, cha);
             }
+            this.MapCharacters.Remove(cha.Id);
         }
 
         
