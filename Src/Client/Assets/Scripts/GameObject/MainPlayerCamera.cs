@@ -9,8 +9,9 @@ public class MainPlayerCamera : MonoSingleton<MainPlayerCamera>
     public Transform viewPoint;
 
     public GameObject player;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    protected override void OnStart()
+    {
 		
 	}
 	
