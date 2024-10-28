@@ -27,12 +27,10 @@ public class LoadingManager : MonoBehaviour {
 		Common.Log.Info("LoadingManager start");
 
 		UiTips.SetActive(true);
-        UIStart.SetActive(false);
+        UIStart.SetActive(true);
         UILoading.SetActive(false);
         UILogin.SetActive(false);
-		yield return new WaitForSeconds(2f);
-        UIStart.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         UiTips.SetActive(false);
         yield return new WaitForSeconds(1f);
         UILoading.SetActive(true);
