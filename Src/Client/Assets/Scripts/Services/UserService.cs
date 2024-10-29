@@ -247,7 +247,7 @@ namespace Services
 
         void OnGameLeave(object sender, UserGameLeaveResponse response)
         {
-            //MapServive.Instance.CurrentMapId = 0;
+            MapService.Instance.CurrentMapId = 0;
             Debug.LogFormat("OnGameLeave: {0}  [{1}] ", response.Result, response.Errormsg);
         }
 
