@@ -45,6 +45,12 @@ public class UIMinimap : MonoBehaviour
     // 每帧更新
     void Update()
     {
+        if(playerTransform == null)
+        {
+            playerTransform = MinimapManager.Instance.PlayerTransform;
+        }
+
+
         // 如果边界框或玩家Transform为空则返回
         if (MinimapBoundingBox == null || playerTransform == null) return;
 

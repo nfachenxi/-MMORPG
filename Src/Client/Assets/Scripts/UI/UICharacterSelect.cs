@@ -160,7 +160,6 @@ public class UICharacterSelect : MonoBehaviour
         this.selectCharacteridx = idx; // 设置当前选中的角色索引
         var cha = User.Instance.Info.Player.Characters[idx]; // 获取选中的角色信息
         Debug.LogFormat("Select Char:[{0}]{1}[{2}]", cha.Id, cha.Name, cha.Class); // 输出日志信息
-        User.Instance.CurrentCharacter = cha; // 设置当前角色
         characterView.CurrentCharacter = (int)cha.Class - 1; // 设置角色视图
 
         // 更新UI显示
