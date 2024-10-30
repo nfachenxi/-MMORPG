@@ -20,8 +20,14 @@ public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
     void Start()
     {
+        if(instance != null && instance != this.gameObject.GetComponent<T>())
+        {
+            Destroy(this.gameObject);
+            return;
+        }
         if (global) DontDestroyOnLoad(this.gameObject);
         this.OnStart();
+        instance = this.gameObject.GetComponent<T>();
     }
 
     protected virtual void OnStart()
