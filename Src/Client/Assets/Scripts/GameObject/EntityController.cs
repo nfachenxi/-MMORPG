@@ -123,6 +123,8 @@ public class EntityController : MonoBehaviour, IEntityNotify
             case EntityEvent.Jump:
                 anim.SetTrigger("Jump");
                 break;
+            case EntityEvent.None:
+                break;
         }
     }
 
