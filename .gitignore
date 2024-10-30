@@ -61,3 +61,6 @@ ipch/
 
 # 忽略Bug内容收集
 Doc/Bug截图/
+
+# 忽略日志文件
+Src/Client/Log/
