@@ -1,7 +1,581 @@
-2024-10-29 22:38:36,718 [ 1] INFO  Unity: LoadingManager start
-2024-10-29 22:38:43,183 [ 1] INFO  Unity: DataManager > DataManager()
-2024-10-29 22:42:57,019 [ 1] INFO  Unity: OnDestroy NetworkManager.
-2024-10-29 22:42:57,020 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
+2024-10-30 09:45:05,620 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -272855)  DIR:(-99, 11, 0)  SPD: 0
+2024-10-30 09:45:05,627 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-272855),dir:(-99,11,0),spd:0
+
+2024-10-30 09:45:05,627 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -272855)  DIR:(-99, 11, 0)  SPD: 0
+2024-10-30 09:45:05,628 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-272855),dir:(-99,11,0),spd:0
+
+2024-10-30 09:45:05,628 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -272855)  DIR:(-99, 11, 0)  SPD: 0
+2024-10-30 09:45:05,629 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-272855),dir:(-99,11,0),spd:0
+
+2024-10-30 09:45:05,641 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,642 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,642 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,642 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,658 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,659 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,660 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,660 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,682 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,683 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,683 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,684 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,684 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,685 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,686 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,686 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,687 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,687 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,700 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,701 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,701 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,702 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,717 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,718 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,719 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,719 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,721 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,721 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,722 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,723 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,724 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,724 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,739 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,740 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,741 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,741 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,761 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,762 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,763 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,763 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,764 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,764 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,766 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,767 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,767 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,767 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,784 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,784 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,784 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,786 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,801 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,803 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,803 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,804 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,804 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,805 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,806 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,806 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,806 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,808 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,823 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,823 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,823 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,824 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,838 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:05,838 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:05,840 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:05,840 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:05,841 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,842 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,842 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,842 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,857 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,858 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,859 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,859 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,873 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,874 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,874 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,875 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,876 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5126, 3711, -274219)  DIR:(-100, 9, 0)  SPD: 0
+2024-10-30 09:45:05,876 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5126,3711,-274219),dir:(-100,9,0),spd:0
+
+2024-10-30 09:45:05,877 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,877 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,878 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,878 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,897 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,898 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,898 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,899 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,913 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,914 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,915 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,915 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,916 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,916 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,917 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,918 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,918 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,919 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,934 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,934 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,934 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,935 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,950 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,951 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,952 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,952 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,953 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,955 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,955 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,956 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,956 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,956 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,971 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,971 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,971 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,972 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,986 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,986 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,987 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,987 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,988 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:05,988 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:05,990 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:05,991 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:05,991 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:05,991 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,007 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,007 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,007 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,008 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,022 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:06,023 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:06,023 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:06,024 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:06,024 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:06,025 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:06,026 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,026 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,027 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,027 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,043 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,044 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,044 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,045 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,059 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:06,059 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:06,061 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:06,062 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:06,063 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5125, 3711, -275588)  DIR:(-100, 4, 0)  SPD: 0
+2024-10-30 09:45:06,063 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5125,3711,-275588),dir:(-100,4,0),spd:0
+
+2024-10-30 09:45:06,064 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,064 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,065 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,065 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,079 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,080 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,080 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,080 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,098 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,099 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,099 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,100 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,100 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,101 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,101 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,102 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,123 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,123 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,124 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,124 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,138 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84152)  DIR:(-100, -4, 0)  SPD: 0
+2024-10-30 09:45:06,138 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84152),dir:(-100,-4,0),spd:0
+
+2024-10-30 09:45:06,140 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84152)  DIR:(-100, -4, 0)  SPD: 0
+2024-10-30 09:45:06,141 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84152),dir:(-100,-4,0),spd:0
+
+2024-10-30 09:45:06,141 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84152)  DIR:(-100, -4, 0)  SPD: 0
+2024-10-30 09:45:06,142 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84152),dir:(-100,-4,0),spd:0
+
+2024-10-30 09:45:06,143 [ 1] INFO  Unity: SetPosition:(5287, 3723, -638284)
+2024-10-30 09:45:06,143 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (-100,-4,0) SPD: 0
+2024-10-30 09:45:06,143 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,143 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,144 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,144 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,160 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,161 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,161 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,162 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,177 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,178 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,179 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,180 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,181 [ 1] INFO  Unity: SetPosition:(5287, 3723, -638339)
+2024-10-30 09:45:06,181 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (-100,-4,0) SPD: 0
+2024-10-30 09:45:06,182 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,182 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,182 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,183 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,197 [ 1] INFO  Unity: SetPosition:(5287, 3723, -638395)
+2024-10-30 09:45:06,198 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (-100,-4,0) SPD: 0
+2024-10-30 09:45:06,198 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,198 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,199 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,199 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,214 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84265)  DIR:(-99, -13, 0)  SPD: 0
+2024-10-30 09:45:06,215 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84265),dir:(-99,-13,0),spd:0
+
+2024-10-30 09:45:06,215 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84265)  DIR:(-99, -13, 0)  SPD: 0
+2024-10-30 09:45:06,216 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84265),dir:(-99,-13,0),spd:0
+
+2024-10-30 09:45:06,216 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84265)  DIR:(-99, -13, 0)  SPD: 0
+2024-10-30 09:45:06,217 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84265),dir:(-99,-13,0),spd:0
+
+2024-10-30 09:45:06,218 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,219 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,219 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,219 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,233 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,233 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,234 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,234 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,249 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84265)  DIR:(-98, -18, 0)  SPD: 0
+2024-10-30 09:45:06,250 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84265),dir:(-98,-18,0),spd:0
+
+2024-10-30 09:45:06,250 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84265)  DIR:(-98, -18, 0)  SPD: 0
+2024-10-30 09:45:06,251 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84265),dir:(-98,-18,0),spd:0
+
+2024-10-30 09:45:06,252 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84265)  DIR:(-98, -18, 0)  SPD: 0
+2024-10-30 09:45:06,252 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84265),dir:(-98,-18,0),spd:0
+
+2024-10-30 09:45:06,253 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,254 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,254 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,254 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,270 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,270 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,271 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,271 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,286 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,286 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,287 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,288 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,288 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,288 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,290 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,290 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,311 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,312 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,312 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,313 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,327 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,328 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,329 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,330 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,330 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,330 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,332 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,332 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,346 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,346 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,347 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,347 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,362 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84378)  DIR:(-98, -21, 0)  SPD: 0
+2024-10-30 09:45:06,363 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84378),dir:(-98,-21,0),spd:0
+
+2024-10-30 09:45:06,364 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84378)  DIR:(-98, -21, 0)  SPD: 0
+2024-10-30 09:45:06,364 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84378),dir:(-98,-21,0),spd:0
+
+2024-10-30 09:45:06,365 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5077, 3701, -84378)  DIR:(-98, -21, 0)  SPD: 0
+2024-10-30 09:45:06,366 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5077,3701,-84378),dir:(-98,-21,0),spd:0
+
+2024-10-30 09:45:06,366 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,367 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,367 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,368 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,383 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,383 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,384 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,384 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,399 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,399 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,400 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,401 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,402 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,402 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,402 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,403 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,418 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,418 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,419 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,419 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,434 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,434 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,435 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,435 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,436 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,437 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,437 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,437 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,438 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,438 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,453 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,454 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,454 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,455 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,471 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,472 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,472 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,473 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,473 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,474 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,475 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,476 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,476 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,476 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,492 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,492 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,493 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,493 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,511 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,512 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,512 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,513 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,514 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -281800)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,514 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-281800),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,515 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,515 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,516 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,516 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,529 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,531 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,531 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,531 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,546 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,547 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,547 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,548 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,548 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,549 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,550 [ 1] INFO  Unity: SetPosition:(5287, 3723, -639016)
+2024-10-30 09:45:06,550 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (25,-97,0) SPD: 0
+2024-10-30 09:45:06,550 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,551 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,551 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,552 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,566 [ 1] INFO  Unity: SetPosition:(5287, 3723, -639084)
+2024-10-30 09:45:06,566 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (25,-97,0) SPD: 0
+2024-10-30 09:45:06,576 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,576 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,577 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,577 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,593 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,593 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,594 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,594 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,595 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,597 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,597 [ 1] INFO  Unity: SetPosition:(5287, 3723, -639119)
+2024-10-30 09:45:06,597 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (25,-97,0) SPD: 0
+2024-10-30 09:45:06,598 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,598 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,599 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,599 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,618 [ 1] INFO  Unity: SetPosition:(5287, 3723, -639188)
+2024-10-30 09:45:06,619 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (25,-97,0) SPD: 0
+2024-10-30 09:45:06,619 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,621 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,621 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,621 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,641 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,641 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,642 [ 1] INFO  Unity: OnEntityChanged : ID: 3  POS:(4865, 4165, 806)  DIR:(17, 99, 0)  SPD: 300
+2024-10-30 09:45:06,642 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[3]evt : None entity: (3:pos:(4865,4165,806),dir:(17,99,0),spd:300
+
+2024-10-30 09:45:06,643 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,644 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,644 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,645 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,658 [ 1] INFO  Unity: SetPosition:(5287, 3723, -639259)
+2024-10-30 09:45:06,658 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 1 POS: SkillBridge.Message.NVector3 DIR: (25,-97,0) SPD: 0
+2024-10-30 09:45:06,659 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,659 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,659 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,661 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,675 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,675 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,676 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,676 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,677 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,677 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,678 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,678 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,679 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,679 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,693 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,694 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,695 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,695 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,716 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,716 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,717 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,717 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,718 [ 1] INFO  Unity: OnEntityChanged : ID: 1  POS:(5124, 3709, -283193)  DIR:(25, -97, 0)  SPD: 0
+2024-10-30 09:45:06,718 [ 1] INFO  Unity: MapEntityUpdateResponse: Entitys: 1
+[1]evt : None entity: (1:pos:(5124,3709,-283193),dir:(25,-97,0),spd:0
+
+2024-10-30 09:45:06,719 [ 1] INFO  Unity: SetPosition:(4464, 5799, 806)
+2024-10-30 09:45:06,719 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,721 [ 1] INFO  Unity: SetPosition:(4537, 5799, 806)
+2024-10-30 09:45:06,721 [ 1] INFO  Unity: MapEntityUpdateRequest : ID: 3 POS: SkillBridge.Message.NVector3 DIR: (17,99,0) SPD: 300
+2024-10-30 09:45:06,761 [ 1] INFO  Unity: Character_1_test1 OnDestroy :ID:1 POS:(5124, 3709, -283193) DIR:(25, -97, 0) SPD:0 
+2024-10-30 09:45:06,761 [ 1] INFO  Unity: Character_2_test2 OnDestroy :ID:3 POS:(4537, 5799, 806) DIR:(17, 99, 0) SPD:300 
+2024-10-30 09:45:06,761 [ 1] INFO  Unity: Character_3_test3 OnDestroy :ID:2 POS:(5259, 3753, -19209) DIR:(-99, -17, 0) SPD:0 
+2024-10-30 09:45:06,762 [ 1] INFO  Unity: Character_2_test2 OnDestroy :ID:4 POS:(5685, 4187, 806) DIR:(77, -64, 0) SPD:0 
+2024-10-30 09:45:06,763 [ 1] INFO  Unity: Character_1_test1 OnDestroy :ID:1 POS:(5124, 3709, -283193) DIR:(25, -97, 0) SPD:0 
+2024-10-30 09:45:06,763 [ 1] INFO  Unity: Character_2_test2 OnDestroy :ID:3 POS:(4537, 5799, 806) DIR:(17, 99, 0) SPD:300 
+2024-10-30 09:45:06,764 [ 1] INFO  Unity: Character_3_test3 OnDestroy :ID:2 POS:(5259, 3753, -19209) DIR:(-99, -17, 0) SPD:0 
+2024-10-30 09:45:06,765 [ 1] INFO  Unity: Character_2_test2 OnDestroy :ID:4 POS:(5685, 4187, 806) DIR:(77, -64, 0) SPD:0 
+2024-10-30 09:45:06,767 [ 1] INFO  Unity: Character_1_test1 OnDestroy :ID:1 POS:(5124, 3709, -283193) DIR:(25, -97, 0) SPD:0 
+2024-10-30 09:45:06,767 [ 1] INFO  Unity: Character_2_test2 OnDestroy :ID:3 POS:(4537, 5799, 806) DIR:(17, 99, 0) SPD:300 
+2024-10-30 09:45:06,768 [ 1] INFO  Unity: Character_3_test3 OnDestroy :ID:2 POS:(5259, 3753, -19209) DIR:(-99, -17, 0) SPD:0 
+2024-10-30 09:45:06,768 [ 1] INFO  Unity: Character_2_test2 OnDestroy :ID:4 POS:(5685, 4187, 806) DIR:(77, -64, 0) SPD:0 
+2024-10-30 09:45:06,770 [ 1] INFO  Unity: OnDestroy NetworkManager.
+2024-10-30 09:45:06,770 [ 1] WARN  Unity: CloseConnection(), errorCode: 1007
 UnityEngine.Debug:LogWarning(Object)
 Network.NetClient:CloseConnection(Int32) (at Assets/Scripts/Network/NetClient.cs:180)
 Network.NetClient:OnDestroy() (at Assets/Scripts/Network/NetClient.cs:175)
