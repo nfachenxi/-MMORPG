@@ -19,18 +19,18 @@ public class UIMinimap : MonoBehaviour
     // 在游戏开始时初始化地图信息
     void Start()
     {
-        InitMap();
+        MinimapManager.Instance.minimap = this;
+        UpdateMap();
     }
 
     // 初始化地图
-    void InitMap()
+    public void UpdateMap()
     {
         // 设置地图名称
         this.mapName.text = User.Instance.CurrentMapData.Name;
 
-        // 如果还没有设置Sprite，则加载当前地图的小地图Sprite
-        if (this.minimap.overrideSprite == null)
-            this.minimap.overrideSprite = MinimapManager.Instance.LoadCurrentMinimap();
+        // 加载当前地图的小地图Sprite
+        this.minimap.overrideSprite = MinimapManager.Instance.LoadCurrentMinimap();
 
         // 设置Sprite的真实大小
         this.minimap.SetNativeSize();
@@ -38,8 +38,11 @@ public class UIMinimap : MonoBehaviour
         // 重置Image的位置为零点
         this.minimap.transform.localPosition = Vector3.zero;
 
-        // 获取玩家的Transform
-        this.playerTransform = User.Instance.CurrentCharacterObject.transform;
+        //获取管理器的包围盒
+        this.MinimapBoundingBox = MinimapManager.Instance.MinimapBoundingBox;
+
+        // 清空玩家位置
+        this.playerTransform = null;
     }
 
     // 每帧更新

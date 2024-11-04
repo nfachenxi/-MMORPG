@@ -24597,7 +24597,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.98, y: -50.43}
+  m_AnchoredPosition: {x: -0.98, y: -50.42993}
   m_SizeDelta: {x: 85.42, y: 29.520004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802183966
@@ -24789,6 +24789,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 89f7c031377cc764cb9a6491643b481e,
     type: 3}
   m_PrefabInternal: {fileID: 1695821031}
+--- !u!1 &812519057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 812519059}
+  - component: {fileID: 812519058}
+  m_Layer: 0
+  m_Name: MapRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &812519058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 812519057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ec5c8221ef3c3a47ba49d8d38f18017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinimapBoundingBox: {fileID: 1045231856}
+--- !u!4 &812519059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 812519057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.42587, y: 0.765625, z: 43.29341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &814944830
 Prefab:
   m_ObjectHideFlags: 0
@@ -41906,7 +41947,7 @@ GameObject:
   - component: {fileID: 1415483397}
   - component: {fileID: 1415483396}
   m_Layer: 5
-  m_Name: UIMainCity
+  m_Name: UIMain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41923,6 +41964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69b9dbd0dab82f43aee5e8222a17a84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  global: 1
   avatarName: {fileID: 1267944379}
   avatarLevel: {fileID: 1918500931}
 --- !u!114 &1415483397
