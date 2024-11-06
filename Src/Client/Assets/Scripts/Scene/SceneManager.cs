@@ -29,6 +29,7 @@ public class SceneManager : MonoSingleton<SceneManager>
         AsyncOperation async = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(name);
         async.allowSceneActivation = true;
         async.completed += LevelLoadCompleted;
+        
         while (!async.isDone)
         {
             if (onProgress != null)
@@ -42,5 +43,6 @@ public class SceneManager : MonoSingleton<SceneManager>
         if (onProgress != null)
             onProgress(1f);
         Debug.Log("LevelLoadCompleted:" + obj.progress);
+        
     }
 }
