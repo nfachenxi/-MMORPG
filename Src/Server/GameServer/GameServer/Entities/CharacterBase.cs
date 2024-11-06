@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GameServer.Entities
 {
-    class CharacterBase : Entity
+    public class CharacterBase : Entity
     {
 
         public int Id

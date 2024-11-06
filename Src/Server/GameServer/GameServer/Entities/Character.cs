@@ -1,5 +1,6 @@
 ﻿using Common.Data;
 using GameServer.Core;
+using GameServer.Managers;
 using SkillBridge.Message;
 using System;
 using System.Collections.Generic;
@@ -9,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace GameServer.Entities
 {
-    class Character : CharacterBase
+   public class Character : CharacterBase
     {
        
         public TCharacter Data;
-        
 
+        public ItemManager ItemManager;
         public Character(CharacterType type,TCharacter cha):
             base(new Core.Vector3Int(cha.MapPosX, cha.MapPosY, cha.MapPosZ),new Core.Vector3Int(100,0,0))
         {
@@ -29,6 +30,10 @@ namespace GameServer.Entities
             this.Info.mapId = cha.MapID;
             this.Info.Entity = this.EntityData;
             //this.Define = DataManager.Instance.Characters[this.Info.Tid];
+
+            this.ItemManager = new ItemManager(this);
+            this.ItemManager.GetItemInfos(this.Info.Items);
+
         }
     }
 }
