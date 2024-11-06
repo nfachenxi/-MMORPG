@@ -42,6 +42,9 @@ public class LoadingManager : MonoBehaviour {
         MapService.Instance.Init();
         UserService.Instance.Init();
 
+		//其它系统初始化
+		//TestManager.Instance.Init();
+
 
         //Fake loading Simulate
         for (float i = 10; i < 100;)
