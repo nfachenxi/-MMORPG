@@ -8,6 +8,7 @@ using UnityEngine;
 
 using SkillBridge.Message;
 using Models;
+using Managers;
 
 namespace Services
 {
@@ -250,7 +251,12 @@ namespace Services
             Debug.LogFormat("OnGameEnter: {0}  [{1}] ", response.Result, response.Errormsg);
             if (response.Result == Result.Success)
             {
-                // 可以在这里处理进入游戏后的逻辑
+                if(response.Character != null)
+                {
+                    ItemManager.Instance.Init(response.Character.Items);
+                    BagManager.Instance.Init(response.Character.Bag);
+
+                }
             }
         }
 

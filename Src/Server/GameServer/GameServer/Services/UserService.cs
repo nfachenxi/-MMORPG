@@ -124,6 +124,13 @@ namespace GameServer.Services
                 Player = sender.Session.User.Player,
             };
 
+            var bag = new TcharacterBag();
+            bag.Owner = character;
+            bag.Items = new byte[0];
+            bag.Unlocked = 60;
+            character.Bag = DBService.Instance.Entities.characterBags.Add(bag);
+
+
             character = DBService.Instance.Entities.Characters.Add(character);
             sender.Session.User.Player.Characters.Add(character);
             DBService.Instance.Entities.SaveChanges();
@@ -168,19 +175,24 @@ namespace GameServer.Services
             //发送初始角色信息
             message.Response.gameEnter.Character = character.Info;
             //道具系统测试
-            //int itemId = 1;
-            //bool hasItem = character.ItemManager.HasItem(itemId);
-            //Log.InfoFormat("HasItem:[ {0} ]{1}",itemId,hasItem);
-            //if(hasItem)
-            //{
-            //    character.ItemManager.RemoveItem(itemId, 1);
-            //}
-            //else
-            //{
-            //    character.ItemManager.AddItem(itemId, 2);
-            //}
-            //Models.Item item = character.ItemManager.GetItem(itemId);
-            //Log.InfoFormat("Item:[ {0} ]{1}", itemId, item);
+            int itemId = 1;
+            bool hasItem = character.ItemManager.HasItem(itemId);
+            Log.InfoFormat("HasItem:[ {0} ]{1}", itemId, hasItem);
+            if (hasItem)
+            {
+                //character.ItemManager.RemoveItem(itemId, 1);
+            }
+            else
+            {
+                character.ItemManager.AddItem(1, 200);
+                character.ItemManager.AddItem(2, 100);
+                character.ItemManager.AddItem(3, 30);
+                character.ItemManager.AddItem(4, 120);
+            }
+            Models.Item item = character.ItemManager.GetItem(itemId);
+
+            Log.InfoFormat("Item:[ {0} ]{1}", itemId, item);
+            DBService.Instance.Save();
 
             byte[] data = PackageHandler.PackMessage(message);
             sender.SendData(data, 0, data.Length);

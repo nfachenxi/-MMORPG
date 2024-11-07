@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using SkillBridge.Message;
+using Common.Data;
 
 namespace Models
 {
@@ -9,11 +10,13 @@ namespace Models
     {
         public int ID;
         public int Count;
+        public ItemDefine Define;
 
         public Item(NItemInfo item)
         {
             this.ID = item.Id;
             this.Count = item.Count;
+            this.Define = DataManager.Instance.Items[item.Id];
         }
 
         public override string ToString()
