@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class UIIconItem : MonoBehaviour {
+public class UIBagItem : MonoBehaviour {
 	public Image mainImage;
 	public Image secondImage;
 

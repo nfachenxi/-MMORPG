@@ -7,6 +7,7 @@ using SkillBridge.Message;
 using ProtoBuf;
 using UnityEngine.Analytics;
 using Services;
+using Managers;
 
 public class LoadingManager : MonoBehaviour {
 
@@ -44,6 +45,7 @@ public class LoadingManager : MonoBehaviour {
 
 		//其它系统初始化
 		//TestManager.Instance.Init();
+		ShopManager.Instance.Init();
 
 
         //Fake loading Simulate

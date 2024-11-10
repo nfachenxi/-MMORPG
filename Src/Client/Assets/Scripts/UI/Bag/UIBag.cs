@@ -17,6 +17,7 @@ public class UIBag : UIWindow {
 		if(slots == null)
 		{
 			slots = new List<Image>();
+			money.text = User.Instance.CurrentCharacter.Gold.ToString();
 			for(int page = 0; page < this.pages.Length; page++)
 			{
 				slots.AddRange(this.pages[page].GetComponentsInChildren<Image>(true));
@@ -33,7 +34,7 @@ public class UIBag : UIWindow {
 			if (item.ItemId > 0)
 			{
 				GameObject go = Instantiate(bagItem, slots[i].transform);
-				var ui = go.GetComponent<UIIconItem>();
+				var ui = go.GetComponent<UIBagItem>();
 				var def = ItemManager.Instance.Items[item.ItemId].Define;
 				ui.SetMainIcon(def.Icon, item.Count.ToString());
 			}
@@ -55,9 +56,6 @@ public class UIBag : UIWindow {
 		BagManager.Instance.Reset();
 	}
 
-	public void CloseBag()
-	{
-		UIManager.Instance.Close(this.GetType());
-	}
+
 
 }
